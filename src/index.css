@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+
+/* ===== Guest List ===== */
+main {
+   margin: 20px auto;
+   width: 75%;
+   display: flex;
+   flex-direction: column;
+   border: 2px solid black;
+   border-radius: 2px;
+}
+
+h1 {
+    text-align: center;
+     margin: 15px;
+}
+
+li div{
+    width: 100%;
+    padding-left: 10px;
+}
+
+li:first-child, li div:first-child{
+    font-weight: bold;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; 
+}
+
+li:nth-child(2n) {
+    background-color: lightgrey;
+}
+
+p {
+   margin: 15px;
+}
+
+
+/* ===== Guest Card ===== */
+
+h2 {
+    margin: 15px;
+}
+
+.guestCard {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+}
+
+.guestCard div{
+    display: flex;
+}
+
+.details {
+    width: 50px;
+    font-weight: bold;
+}
+
+button {
+    width: 60px;
+    justify-content: center;
+    margin: 20px auto;
+}
